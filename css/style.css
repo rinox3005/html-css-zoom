@@ -3,3 +3,30 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container {
+    width: 92vw;
+    height: calc(100vh - 90px);
+    background-color: red;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer {
+    width: 100vw;
+    height: 90px;
+    background-color: aqua;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.bg-blue {
+    background-color: blue;
+}
