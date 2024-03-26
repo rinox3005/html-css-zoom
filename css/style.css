@@ -1,9 +1,11 @@
+/* RESET */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* LAYOUT */
 .container {
     height: calc(100vh - 80px);
     padding-top: 35px;
@@ -24,6 +26,7 @@ footer {
     background-color: rgb(46, 45, 45);
 }
 
+/* UTILITY */
 .justify-center {
     justify-content: center;
 }
@@ -125,7 +128,7 @@ button {
     position: absolute;
     top: 0;
     right: 0;
-    background-color: grey;
+    background-color: #4a4a4a;
     padding: 3px;
     border-radius: 5px;
     margin: 5px;
@@ -135,7 +138,7 @@ button {
     position: absolute;
     top: 0;
     right: 25px;
-    background-color: grey;
+    background-color: #4a4a4a;
     padding: 3px;
     border-radius: 5px;
     margin: 5px;
@@ -151,4 +154,8 @@ button {
 .top-icons2 span {
     font-size: 15px;
     margin-left: 5px;
+}
+
+.hover:hover {
+    background-color: rgba(255, 255, 255, 0.479);
 }
