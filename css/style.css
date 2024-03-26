@@ -5,7 +5,7 @@
 }
 
 .container {
-    height: calc(100vh - 90px);
+    height: calc(100vh - 80px);
     padding-top: 35px;
     padding-bottom: 10px;
     padding-left: 6vh;
@@ -20,16 +20,28 @@
 
 footer {
     width: 100vw;
-    height: 90px;
-    background-color: aqua;
+    height: 80px;
+    background-color: rgb(46, 45, 45);
 }
 
 .justify-center {
     justify-content: center;
 }
 
+.align-center {
+    align-items: center;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
 .bg-black {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 
 .col-13 {
@@ -44,7 +56,7 @@ footer {
 
 .user {
     position: absolute;
-    bottom: 0;
+    bottom: 8px;
     left: 0;
     background-color: rgba(0, 0, 0, 0.315);
     padding: 5px;
@@ -54,4 +66,89 @@ footer {
 .user img {
     width: 15px;
     filter: brightness(0) saturate(100%) invert(100%) sepia(92%) saturate(0%) hue-rotate(17deg) brightness(102%) contrast(101%);
+}
+
+.col-25 {
+    width: 25%;
+}
+
+.col-50 {
+    width: 50%;
+    text-align: center;
+}
+
+.footer-icons {
+    width: 30px;
+    padding-top: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(92%) saturate(0%) hue-rotate(17deg) brightness(102%) contrast(101%);
+}
+
+.share-icon {
+    width: 30px;
+    padding-top: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+    filter: brightness(0) saturate(100%) invert(45%) sepia(80%) saturate(2435%) hue-rotate(98deg) brightness(105%) contrast(106%);
+}
+
+.m-10 {
+    margin: 20px 10px 0 0;
+    transform: rotate(180deg);
+}
+
+.ml-10 {
+    margin-left: 20px;
+}
+
+.white {
+    color: white;
+    font-size: 14px;
+}
+
+button {
+    height: 80px;
+    width: 140px;
+    background-color: grey;
+    border: none;
+    color: red;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.top-functions {
+    position: relative;
+}
+
+.top-icons1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: grey;
+    padding: 3px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.top-icons2 {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    background-color: grey;
+    padding: 3px;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 15px;
+}
+
+.top-icon {
+    width: 14px;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(92%) saturate(0%) hue-rotate(17deg) brightness(102%) contrast(101%);
+
+}
+
+.top-icons2 span {
+    font-size: 15px;
+    margin-left: 5px;
 }
