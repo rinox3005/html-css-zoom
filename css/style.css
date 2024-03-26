@@ -30,3 +30,9 @@ footer {
 .bg-blue {
     background-color: blue;
 }
+
+.col-13 {
+    width: calc(100% / 7 - 10px);
+    background-color: white;
+    margin: 5px;
+}
